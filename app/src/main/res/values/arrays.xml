@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="image_directories">
+        <item>@string/all</item>
+        <item>@string/camera</item>
+        <item>@string/downloads</item>
+        <item>@string/pictures</item>
+        <item>@string/whatsapp_images</item>
+    </array>
+    <array name="languages">
+        <item>English</item>
+        <item>Bengali</item>
+        <item>German</item>
+        <item>Spanish</item>
+        <item>Hindi</item>
+        <item>French</item>
+        <item>Indonesian</item>
+        <item>Italian</item>
+        <item>Russian</item>
+        <item>Chinese (Simplified)</item>
+        <item>Arabic</item>
+        <item>Dutch</item>
+        <item>Turkish</item>
+    </array>
+    <array name="languages_entry_keys">
+        <item>en</item>
+        <item>bn</item>
+        <item>de</item>
+        <item>es</item>
+        <item>hi</item>
+        <item>fr</item>
+        <item>in</item>
+        <item>it</item>
+        <item>ru</item>
+        <item>zh</item>
+        <item>ar</item>
+        <item>nl</item>
+        <item>tr</item>
+    </array>
+</resources>

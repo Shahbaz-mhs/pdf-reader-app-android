@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory android:title="@string/reading">
+
+        <androidx.preference.SwitchPreferenceCompat
+            android:defaultValue="true"
+            android:icon="@drawable/ic_settings_brightness"
+            android:key="prefs_stay_awake"
+            android:summary="@string/prevent_screen_turn_off"
+            android:title="@string/stay_awake" />
+
+        <androidx.preference.SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:icon="@drawable/ic_settings_last_page"
+            android:key="prefs_remember_last_page"
+            android:summary="@string/pickup_where_you_left_off"
+            android:title="@string/remember_last_page" />
+
+        <androidx.preference.SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:icon="@drawable/ic_settings_fullscreen"
+            android:key="prefs_auto_full_screen"
+            android:summary="@string/hide_all_controls_in_pdf_view"
+            android:title="@string/auto_full_screen" />
+
+        <androidx.preference.SwitchPreferenceCompat
+            android:defaultValue="false"
+            android:icon="@drawable/ic_action_night_mode"
+            android:key="prefs_night_mode_enabled"
+            android:summary="@string/turn_background_colors_dark"
+            android:title="@string/dark_theme" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="@string/general">
+
+        <ListPreference
+            android:defaultValue="en"
+            android:entries="@array/languages"
+            android:entryValues="@array/languages_entry_keys"
+            android:icon="@drawable/ic_settings_language"
+            android:key="prefs_language"
+            android:summary="English"
+            android:title="@string/language" />
+
+        <Preference
+            android:icon="@drawable/ic_settings_info"
+            android:key="prefs_about"
+            android:persistent="false"
+            android:title="@string/about">
+            <intent
+                android:targetClass="tz.co.wadau.allpdf.AboutActivity"
+                android:targetPackage="tz.co.wadau.allpdf" />
+        </Preference>
+
+    </PreferenceCategory>
+
+</PreferenceScreen>

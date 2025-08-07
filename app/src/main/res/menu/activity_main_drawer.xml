@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/first_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_all_documents"
+            android:icon="@drawable/ic_menu_all_documents"
+            android:title="@string/all_documents" />
+        <item
+            android:id="@+id/nav_tools"
+            android:visible="false"
+            android:icon="@drawable/ic_menu_tools"
+            android:title="@string/pdf_tools" />
+        <item
+            android:id="@+id/nav_inp"
+            android:icon="@drawable/ic_menu_premium"
+            android:title="Purchase VIP Plan" />
+
+    </group>
+    <group
+        android:id="@+id/second_group"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_rate"
+            android:icon="@drawable/ic_nav_stared"
+            android:title="@string/rate_this_app" />
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="@string/share_this_app" />
+
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_menu_about"
+            android:title="@string/about" />
+    </group>
+</menu>

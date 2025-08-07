@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_search"
+        android:icon="@drawable/ic_action_search"
+        android:title="@string/search"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/action_sort"
+        android:icon="@drawable/ic_action_sort"
+        android:title="@string/sort"
+        app:showAsAction="ifRoom">
+
+        <menu>
+            <group
+                android:id="@+id/first_group"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/action_by_name"
+                    android:title="@string/by_name" />
+                <item
+                    android:id="@+id/action_by_date_modified"
+                    android:title="@string/by_date_modified" />
+                <item
+                    android:id="@+id/action_by_size"
+                    android:title="@string/by_size" />
+            </group>
+            <group
+                android:id="@+id/second_group"
+                android:visible="true"
+                android:checkableBehavior="single">
+                <item
+                    android:id="@+id/action_order_by_ascending"
+                    android:title="@string/ascending" />
+                <item
+                    android:id="@+id/action_order_by_descending"
+                    android:title="@string/descending" />
+            </group>
+        </menu>
+    </item>
+
+    <item
+        android:id="@+id/action_clear_recent_pdfs"
+        android:visible="false"
+        android:icon="@drawable/ic_action_clear_recent"
+        android:title="@string/clear_recent"
+        app:showAsAction="ifRoom" />
+</menu>

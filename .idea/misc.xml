@@ -1,0 +1,17 @@
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Ranu/Desktop/kadular/PDF Reader/Pdf Reader/PDF Reader/app/src/main/res/layout/activity_splash_screen.xml" value="0.14270833333333333" />
+        <entry key="..\:/Users/Ranu/Desktop/kadular/PDF Reader/Pdf Reader/PDF Reader/app/src/main/res/layout/dialog_edit_password.xml" value="0.14270833333333333" />
+        <entry key="..\:/Users/Ranu/Desktop/kadular/PDF Reader/Pdf Reader/PDF Reader/app/src/main/res/layout/nav_header_main.xml" value="0.14270833333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" default="true" project-jdk-name="temurin-17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

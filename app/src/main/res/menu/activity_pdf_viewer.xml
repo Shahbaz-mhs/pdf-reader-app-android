@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_share"
+        android:icon="@drawable/ic_action_share"
+        android:iconTint="@color/tint_color_day_night"
+        android:title="@string/share"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_pdf_tools"
+        android:icon="@drawable/ic_action_pdf_tools"
+        android:iconTint="@color/tint_color_day_night"
+        android:title="@string/pdf_tools"
+        android:visible="false" />
+    <item
+        android:id="@+id/action_jump_to_page"
+        android:icon="@drawable/ic_action_jump_to_page"
+        android:iconTint="@color/tint_color_day_night"
+        android:title="@string/jump_to_page"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_print"
+        android:icon="@drawable/ic_action_print"
+        android:iconTint="@color/tint_color_day_night"
+        android:title="@string/print"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_share_as_picture"
+        android:visible="false"
+        android:icon="@drawable/ic_action_share_as_picture"
+        android:iconTint="@color/tint_color_day_night"
+        android:title="@string/share_as_picture"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_contents"
+        android:icon="@drawable/ic_action_contents"
+        android:iconTint="@color/tint_color_day_night"
+        android:title="@string/table_of_contents"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_toggle_view"
+        android:icon="@drawable/ic_action_swipe_horizontal"
+        android:iconTint="@color/tint_color_day_night"
+        android:title="@string/swipe_horizontal"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_bookmark"
+        android:icon="@drawable/ic_action_bookmark"
+        android:iconTint="@color/tint_color_day_night"
+        android:title="@string/bookmark"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_toggle_night_mode"
+        android:icon="@drawable/ic_action_night_mode"
+        android:iconTint="@color/tint_color_day_night"
+        android:title="@string/night_mode"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_delete"
+        android:icon="@drawable/ic_action_delete"
+        android:iconTint="@color/tint_color_day_night"
+        android:title="@string/delete"
+        app:showAsAction="ifRoom" />
+</menu>

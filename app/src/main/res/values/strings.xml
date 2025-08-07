@@ -1,0 +1,182 @@
+<resources>
+    <string name="app_name" translatable="false">PDF Reader</string>
+    <string name="appName" translatable="false">PDF<b>Reader</b></string>
+
+    <!--admob ids-->
+    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_banner_ad_id" translatable="false">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitial_ad_id" translatable="false">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_open_ad_id" translatable="false">ca-app-pub-3940256099942544/3419835294</string>
+    <string name="admob_native_ad_id" translatable="false">ca-app-pub-3940256099942544/2247696110</string>
+
+    <!--facebook audience network ids-->
+    <string name="fb_banner_id" translatable="false">VID_HD_16_9_46S_APP_INSTALL#YOUR_PLACEMENT_ID a</string>
+    <string name="fb_interstitial_id" translatable="false">VID_HD_16_9_46S_APP_INSTALL#YOUR_PLACEMENT_ID a</string>
+    <string name="fb_native_id" translatable="false">VID_HD_16_9_46S_APP_INSTALL#YOUR_PLACEMENT_ID a</string>
+
+    <string name="email" translatable="false">Apphelp283@gmail.com</string>
+    <string name="company_name" translatable="false">FreeCode</string>
+
+    <string name="about_app">About</string>
+    <string name="made_with_message">Made with \u2665 from India</string>
+    <string name="email_title">Email</string>
+    <string name="company_title">Company</string>
+    <string name="copyright_message">Copyright \u00a9 2021, FreeCode. All rights reserved.</string>
+
+    <string name="about">About</string>
+    <string name="access_all_premium_features">Access all premium features</string>
+    <string name="add_bookmark">Add bookmark</string>
+    <string name="all">All</string>
+    <string name="all_documents">All documents</string>
+    <string name="all_pdfs_from_your_device_will_appear_here">All PDFs from your device will appear here</string>
+    <string name="appbar_scrolling_view_behavior">com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior</string>
+
+    <string name="delete">Delete</string>
+    <string name="descending">Descending</string>
+    <string name="device_does_not_support_printing">Your device does not support printing</string>
+    <string name="done">Done!</string>
+    <string name="dont_like_ads">Don\'t like the ads?</string>
+    <string name="downloads">Downloads</string>
+    <string name="drag_drop_to_organize">Drag and drop to organize pages. Click on a page to delete</string>
+    <string name="edit_metadata">Edit metadata</string>
+    <string name="enter_file_name">Enter file name</string>
+    <string name="enter_page_number">Enter page number</string>
+    <string name="pictures">Pictures</string>
+    <string name="premium">Premium</string>
+    <string name="premium_feature_message">Unlimited Access with No ads</string>
+    <string name="premium_feature">Premium Feature</string>
+    <string name="prevent_screen_turn_off">Prevent screen turn off while reading</string>
+    <string name="print">Print</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="processing">Processing…</string>
+    <string name="protect">Protect</string>
+    <string name="protecting">Protecting…</string>
+    <string name="rate">Rate</string>
+    <string name="rate_this_app">Rate this app</string>
+    <string name="rate_us_details">If you like this app, Please take a few minutes to rate it on Google Play.</string>
+
+    <string name="reading">Reading</string>
+    <string name="recent_cleared">Recent cleared.</string>
+    <string name="recent_pdfs_will_appear_here">Recent PDFs will appear here</string>
+    <string name="reduced_from">Reduced from</string>
+    <string name="remember_last_page">Remember last page</string>
+    <string name="remove">Remove</string>
+    <string name="rename">Rename</string>
+    <string name="rename_file">Rename file</string>
+    <string name="restart">RESTART</string>
+    <string name="save_as_pictures">Save as Pictures</string>
+    <string name="ascending">Ascending</string>
+    <string name="auto_full_screen">Auto full screen</string>
+    <string name="bookmark">Star</string>
+    <string name="bookmark_added">bookmark added</string>
+    <string name="browse_pdf">Browse PDF</string>
+    <string name="by_date_modified">By date modified</string>
+    <string name="by_name">By name</string>
+    <string name="by_size">By size</string>
+    <string name="camera">Camera</string>
+    <string name="cancel">Cancel</string>
+    <string name="cannot_print_malformed_pdf">Cannot print a malformed PDF file</string>
+    <string name="cannot_print_unknown_error">Cannot print PDF file, unknown error has occurred</string>
+    <string name="cant_print_password_protected_pdf">Cannot print a password protected PDF file</string>
+    <string name="cant_share_file">Can\'t share file</string>
+    <string name="chooser_title">Share app via</string>
+    <string name="clear_recent">Clear recent</string>
+    <string name="compress">Compress</string>
+    <string name="compressing">Compressing…</string>
+    <string name="converting">Converting…</string>
+    <string name="dark_theme">Dark theme</string>
+    <string name="saved_to">Saved to</string>
+    <string name="search">Search</string>
+    <string name="security">Security</string>
+    <string name="select">Select</string>
+    <string name="select_at_least_one_image">Please select at least one image</string>
+    <string name="convert">Convert to PDF</string>
+
+    <string name="selected">selected</string>
+    <string name="share">Share</string>
+    <string name="share_as_picture">Share as picture</string>
+    <string name="share_this_app">Share this app</string>
+    <string name="share_this_file_via">Share this file via</string>
+    <string name="show_tools_hint">Click to see awesome tools like reduce PDF size, combine PDFs, image to PDF, split PDF and even more. All tools work OFFLINE</string>
+    <string name="sort">Sort</string>
+    <string name="enter_password">Enter password</string>
+    <string name="enter_title">Enter title</string>
+    <string name="exit_app_has_no_permission">This app can\'t run because it does not have the read and write permissions. The app will now exit.</string>
+    <string name="extract_images">Extract Images</string>
+    <string name="extract_text">Extract Text</string>
+    <string name="extracting">Extracting…</string>
+    <string name="extraction_failed">Extraction failed</string>
+    <string name="failed">Failed</string>
+    <string name="failed_low_memory">Failed! low memory</string>
+    <string name="failed_to_rename_file">Failed to rename file</string>
+
+    <string name="starred">Starred</string>
+    <string name="files">Files</string>
+    <string name="home">Home</string>
+    <string name="file_not_protected">File not protected</string>
+    <string name="file_protected_unprotect">The file is protected, please unprotect</string>
+    <string name="general">General</string>
+    <string name="get_pro_version">Get PRO</string>
+    <string name="get_pro_version_to_use_all_features">Get pro version to access all features</string>
+    <string name="hide_all_controls_in_pdf_view">Automatically hide all controls in PDF view</string>
+    <string name="hundred_percent">100%</string>
+    <string name="images_to_pdf">Images to PDF</string>
+    <string name="invalid_file_name">Invalid file name</string>
+    <string name="invalid_page_number">Invalid page number</string>
+    <string name="invalid_password">Invalid password</string>
+    <string name="items">items</string>
+    <string name="jump_to_page">Jump to page</string>
+    <string name="language">Language</string>
+    <string name="later">Later</string>
+    <string name="light_mode">Light mode</string>
+    <string name="loading_wait">Loading Please wait…</string>
+
+    <string name="location">Location</string>
+    <string name="merge_failed">Failed to merge. One or more files are corrupt or password protected</string>
+    <string name="merging">Merging…</string>
+    <string name="monthly">Monthly</string>
+    <string name="yearly">Yearly</string>
+    <string name="monthly_sub">3.99 USD/Month</string>
+    <string name="yearly_sub">45.99 USD/Year</string>
+    <string name="splitting">Splitting…</string>
+    <string name="stamp">Stamp</string>
+    <string name="stay_awake">Stay awake</string>
+    <string name="swipe_horizontal">Swipe horizontal</string>
+    <string name="swipe_vertical">Swipe vertical</string>
+    <string name="table_of_contents">Table of contents</string>
+    <string name="tap_and_hold_on_a_pdf_for_more_options">Tap and hold on a PDF for more options</string>
+    <string name="to">to</string>
+    <string name="to_add_stared_pdfs_click_star_icon_in_the_pdf_list">To add starred PDFs click star icon in the PDF list</string>
+    <string name="turn_background_colors_dark">Turn background colors dark</string>
+    <string name="unable_to_find_play_store">Unable to find Play Store</string>
+
+    <string name="unknown">Unknown</string>
+    <string name="unprotect">Unprotect</string>
+    <string name="unprotect_pdf">Unprotect PDF</string>
+    <string name="update_downloaded">An update has just been downloaded.</string>
+    <string name="uprotectiong">Unprotecting…</string>
+    <string name="version">Version</string>
+    <string name="whatsapp_images">WhatsApp images</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="night_mode">Night mode</string>
+    <string name="no_ads">No Ads</string>
+    <string name="no_starred">No starred</string>
+    <string name="no_pdf_files_in_this_directory">No PDF files in this directory</string>
+
+    <string name="no_stared_pdfs">No starred PDFs</string>
+    <string name="ok">OK</string>
+    <string name="open_directory">Open directory</string>
+    <string name="open_file">Open file</string>
+    <string name="organize_pages">Convert Images to PDF</string>
+    <string name="page">Page</string>
+    <string name="page_numbers">Page numbers</string>
+    <string name="password_protected">Password protected</string>
+    <string name="pdf_file_has_no_contents">PDF file has no contents</string>
+    <string name="pdf_tools">PDF tools</string>
+    <string name="permanently_delete_file">Permanently delete file?</string>
+    <string name="pickup_where_you_left_off">Pick up where you left off</string>
+    <string name="split">Split</string>
+
+
+</resources>

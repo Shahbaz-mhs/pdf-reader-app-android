@@ -92,16 +92,19 @@ public class RecentPdfFragment extends Fragment implements MaterialSearchView.On
         new UpdateHistoryPdfFiles().executeOnExecutor(AsyncTask.THREAD_POOL_EXECUTOR);
     }
 
+    @Override
     public void onStart() {
         super.onStart();
         EventBus.getDefault().register(this);
     }
 
+    @Override
     public void onStop() {
         super.onStop();
         EventBus.getDefault().unregister(this);
     }
 
+    @Override
     public void onViewCreated(View view, Bundle bundle) {
         super.onViewCreated(view, bundle);
         this.historyPdfRecyclerView = (RecyclerView) view.findViewById(R.id.recycler_view_history_pdf);

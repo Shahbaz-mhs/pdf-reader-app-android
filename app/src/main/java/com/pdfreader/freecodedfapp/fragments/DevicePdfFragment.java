@@ -248,11 +248,13 @@ public class DevicePdfFragment extends Fragment implements MaterialSearchView.On
         Log.d(TAG, "onSortListEvent: ss");
     }
 
+    @Override
     public void onStart() {
         super.onStart();
         EventBus.getDefault().register(this);
     }
 
+    @Override
     public void onStop() {
         super.onStop();
         EventBus.getDefault().unregister(this);

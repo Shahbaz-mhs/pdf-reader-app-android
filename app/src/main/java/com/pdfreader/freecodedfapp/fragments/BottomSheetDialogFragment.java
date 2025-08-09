@@ -270,6 +270,7 @@ public class BottomSheetDialogFragment extends com.google.android.material.botto
                         this.f$1 = replace;
                     }
 
+                        dismiss();
                     public final void onScanCompleted(String str, Uri uri) {
                         onClickLisner.onClickRename(textInputEditText.getText().toString(), f$1);
                         BottomSheetDialogFragment.this.lambda$null$2$BottomSheetDialogFragment(this.f$1, str, uri);
@@ -310,3 +311,4 @@ public class BottomSheetDialogFragment extends com.google.android.material.botto
 
     }
 }
+

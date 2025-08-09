@@ -809,7 +809,7 @@ class MainActivity : AppCompatActivity(), OnRecentPdfClickListener,
         // Check if currLanguage is different from the saved language
         if (!TextUtils.equals(currLanguage, currentLanguage)) {
             // Perform necessary language update
-            recreate()  // Recreate the activity to apply the language change
+            // recreate()  // Recreate the activity to apply the language change
         }
     }
 
